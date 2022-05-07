@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 400px;
+  margin: 20px auto;
+}
+input {
+  padding: 10px;
+  border: none;
+  border: 1px solid #ddd;
+  width: 100%;
+  border-radius: 5px;
+}
+.row {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+  color: #888;
+}
+#check {
+  width: 50px !important;
+}

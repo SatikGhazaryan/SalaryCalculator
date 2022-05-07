@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework-Satik</title>
+    <link rel="stylesheet" href="css.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Աշխատավարձի հաշվիչ</h1>
+      <form>
+        <div class="row">
+          <label for="age">1974 թվականից հետո՞ եք ծնվել</label>
+          <input type="checkbox" id="check" />
+        </div>
+        <div class="row">
+          <input type="text" placeholder="Գրանցված աշխատավարձ" id="salary0" />
+        </div>
+        <div class="row">
+          <input
+            type="text"
+            disabled
+            value="Եկամտային Հարկ (21%)"
+            id="incomeTax"
+          />
+        </div>
+        <div class="row">
+          <input type="text" disabled value="Սոցիալական վճար" id="soc" />
+        </div>
+        <div class="row">
+          <input
+            type="text"
+            disabled
+            value="Դրոշմանիշային վճար"
+            id="stampDuty"
+          />
+        </div>
+        <div class="row">
+          <input type="text" disabled value="Մաքուր աշխատավարձ" id="salary" />
+        </div>
+      </form>
+    </div>
+
+    <script src="js.js"></script>
+  </body>
+</html>
